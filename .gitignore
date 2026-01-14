@@ -1,0 +1,39 @@
+# Java compilados
+*.class
+
+# Diretórios de build/output
+/bin/
+/out/
+/target/
+/build/
+
+# Arquivos gerados pelo IDE
+.idea/
+*.iml
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+
+# Arquivos temporários do sistema
+.DS_Store
+Thumbs.db
+ehthumbs.db
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+*~
+
+# Arquivos sensíveis (chaves, senhas, etc.)
+*.key
+*.pem
+.env
+secrets*
+
+# Pastas de testes ou experimentos
+tests/
+experimentos/
+lixo/
