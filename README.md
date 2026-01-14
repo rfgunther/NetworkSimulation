@@ -111,3 +111,20 @@ Licença
 MIT License – sinta-se à vontade para usar, modificar e aprender!
 Feito com 💻 para estudar Redes e Java
 Rudolf – 2025/2026
+
+
+``` 
+# Calculadora de Subnetting IPv4 em Java
+
+Uma ferramenta simples em Java para calcular informações de redes IPv4 e realizar divisão automática de sub-redes (subnetting). Ideal para estudantes de redes, administradores e quem está praticando conceitos de IPv4, máscaras CIDR, endereços de rede, broadcast e hosts utilizáveis.
+
+## Funcionalidades
+- Calcula o endereço de **rede** e **broadcast** a partir de um IP e máscara CIDR
+- Mostra a quantidade de hosts utilizáveis
+- Divide uma rede em N sub-redes iguais (com nova máscara calculada automaticamente)
+- Interface via console (fácil de rodar e entender)
+
+## Como usar
+1. Compile o código:
+   ```bash
+   javac SubnetCalculator.java
